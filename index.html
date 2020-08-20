@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+            Analog Clock
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="clockbox">
+                <svg id="clock" viewBox="0 0 600 600" width="500" height="500">
+                    <g id="face">
+                        <circle class="circle" cx="300" cy="300" r="253.6"/>
+                        <path class="hour-marks" d=""></path>
+                        <circle class="mid-circle" cx="300" cy="300" r="16.2"/>
+                    </g>
+                    <g id="hour">
+                        <path class="hour-arm" d="M300.5 298V142"/>
+                        <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+                    </g>
+                    <g id="minute">
+                        <path class="minute-arm" d="M300.5 298V67"/>
+                        <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+                    </g>
+                    <g id="seconds">
+                        <path class="second-arm" d="M300.5 350V55"/>
+                        <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </body>
+</html>
