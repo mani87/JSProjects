@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Test Your Speed
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header class="masthead">
+            <h1>Test Your Typing Speed</h1>
+        </header>
+        <main class="main">
+            <article class="intro">
+                <p>This is a typing speed test, your goal is to type EXACT text given below. 
+                    Timer starts once you start typing and ends once text matches given text. </p>
+            </article><!--intro-->
+
+            <section class="test-area">
+                <div id="original-text">
+                    <p>This is a test text.</p>
+                </div><!--#original-text-->
+
+                <div class="test-wrapper">
+                    <textarea id="test-area" name="testarea" rows="6" placeholder="The clock starts once you start typing..."></textarea>
+                </div><!--#test-area-->
+
+                <div class="meta">
+                    <section id="clock">
+                        <div class="timer">00:00:00</div>
+                    </section>
+
+                    <button id="reset">Start Over</button>
+                </div><!--.meta-->
+            </section><!--test-area-->
+        </main>
+    </body>
+</html>
