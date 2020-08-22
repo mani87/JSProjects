@@ -68,3 +68,6 @@ function reset() {
 testArea.addEventListener("keypress", start, false);
 testArea.addEventListener("keyup", spellCheck, false);
 resetButton.addEventListener("click", reset, false);
+
+// Minify code by removing extra spaces using tools online to reduce time and space
+// Linting of code to write a good code (standardized)
