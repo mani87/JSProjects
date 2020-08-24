@@ -1,1 +1,1 @@
-exports.myText = "This is sample text.";
+exports.myText = "hello world";
