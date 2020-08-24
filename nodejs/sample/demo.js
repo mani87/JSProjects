@@ -14,3 +14,9 @@ fs.readFile('./data.json', 'utf-8', (err, data)=>{
 fs.readdir('/home/ma.kumar1/JSProjects/', (err, data)=>{
     console.log(data);
 });
+
+var data_1 = {
+    name: 'Bob'
+}
+
+fs.writeFile('sample/demo.json', JSON.stringify(data_1));
