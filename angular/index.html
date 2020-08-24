@@ -1,0 +1,11 @@
+<html ng-app>
+    <head>
+        <title>Angular App</title>
+
+        <script src="lib/angular/angular.min.js"></script>
+    </head>
+    <body>
+        <p>search <span ng-if="query">{{ ' for: ' + query }}</span></p>
+        <input placeholder="Search artists here" ng-model="query">
+    </body>
+</html>
