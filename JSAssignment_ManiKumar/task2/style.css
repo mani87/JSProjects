@@ -1,0 +1,32 @@
+div.parent {
+    height: 100%;
+}
+
+div.left_child{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+div.right_child{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+form label {
+    font-weight: 100;
+    font-size: medium;
+}
+
+span{
+    color: red;
+}
+
+.form_details input[type=submit]{
+    float: right;
+}
